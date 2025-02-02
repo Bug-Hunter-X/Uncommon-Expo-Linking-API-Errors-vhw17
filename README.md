@@ -1,0 +1,5 @@
+This repository demonstrates a common yet elusive bug related to the Expo Linking API, which handles deep links within your application.  The bug is characterized by a failure to open deep links, which can stem from several issues, such as incorrect URL scheme registration, improper listener management, or misconfigurations in the app's manifest file (app.json or expo.json).
+
+The `LinkingBug.js` file illustrates the buggy code, showcasing potential pitfalls. `LinkingBugSolution.js` offers a corrected implementation and explanations for the fixes.
+
+This example is useful for developers encountering silent failures when working with deep links in Expo, and aids in understanding how to properly manage the Linking API's event listeners and ensure correct URL scheme registration within your application.
